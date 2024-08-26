@@ -1,0 +1,4 @@
+{:tasks
+ {install-to-local-dep
+  {:doc "Installs middleware as local dep in .m2 folder"
+   :task (shell "lein pom; lein jar; lein install")}}}
