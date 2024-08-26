@@ -4,6 +4,19 @@ Nrepl-middleware that exposes `:op "indef"` to inline def function inline argume
 
 
 ## General usage info
+
+### middleware usage
+
+Lein projects, put in `project.clj`
+
+``` clojure
+  :repl-options {:nrepl-middleware
+               [indef.core/wrap-indef]}
+```
+
+`
+
+### code calling the exposed operation
 Here is an emacs snippet that can be used for the instrumentation
 ``` clojure
 (defun instrument-form ()
