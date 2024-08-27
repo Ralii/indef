@@ -30,9 +30,15 @@ Here is an emacs snippet that can be used for the instrumentation
                                                (message "form evaluated")))))))
 ```
 
+
+## Inspiration / prior art
+[snitch](https://github.com/AbhinavOmprakash/snitch)
+[flow-storm-debugger](https://github.com/flow-storm/flow-storm-debugger)
+[scope-capture](https://github.com/vvvvalvalval/scope-capture)
+
 ## License
 
-Copyright © 2024 FIXME
+Copyright © 2024 Lari Saukkonen
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
